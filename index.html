@@ -182,8 +182,23 @@
         <li class="foot-link"><a href="#" class="decoration link"><svg class="icon foot-icon" width="20" height="20"><use href="./images/svg/sprite.svg#icon-linkedin"></use></svg></a></li>
       </ul>
      </div>
+     <div class="mail-send">
+    <h3 class="head-mail">підпишіться на розсилку</h3>
+    <form name="mail-send">
+      <div class="mail-form">
+        <label>
+                <input class="mail-input" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button type="submit" class="mail-btn">Підписатися
+                <svg class="mail-svg" width="24" height="24">
+                <use href="./images/svg/sprite.svg#send"></use>
+                </svg>
+              </button>
+      </div>
+    </form>
   </div>
-    </footer>
+  </div>
+  </footer>
      <div class="backdrop is-hidden" data-modal>
       <div class="modal">
            <button type="button" class="close-button" data-modal-close>
@@ -211,6 +226,21 @@
           <svg class="form-svg" width="18" height="18"><use href="./images/svg/sprite.svg#icon-email"></use>
           </svg>
         </div>
+        <div class="input">
+           <label for="comment" class="flabel">Коментар</label>
+           <textarea class="comments" name="comment" id="comment" placeholder="Введіть текст" cols="30" rows="10"></textarea>
+          </div>
+        <div class="check-box-field">
+          <label for="check-box" class="checkbox-label">
+            <input class="checkbox-form" type="checkbox" name="checkbox" id="check-box" />
+             <svg class="svg-no-check" width="16" height="15">
+              <use href="./images/svg/sprite.svg#svg-no-check"></use></svg>
+             <svg class="svg-check" width="16" height="15">
+              <use href="./images/svg/sprite.svg#svg-check"></use></svg>
+              Погоджуюся з розсилкою та приймаю <a href="#" class="box-link">Умови договору</a>
+          </label>
+        </div>
+        <button type="submit" class="modal-button">Відправити</button>
       </form>
       </div>
     </div>
